@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title style="text-align: center;">Register Now</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align:center; background-image: url(Images.jpg);">
+	<h1 style="text-align: center; color: blue;">Register Now</h1>
+	<form style="color: yellowgreen;" target="_blank">
+		<label for="fname"><b>First Name</b></label><br>
+		<input type="text" name="fname"><br>
+		<label for="lname"><b>Last Name</b></label><br>
+		<input type="text" name="lname"><br>
+		<label for="email"><b>Email Address</b></label><br>
+		<input type="text" name="email"><br>
+		<label for="pswd"><b>Password</b></label><br>
+		<input type="text" name="pswd"><br>
+		<label for="pswd"><b>Confirm Password</b></label><br>
+		<input type="text" name="pswd"><br>
+		<button onclick="myFunction()">Submit</button><br>
+	<script>
+		function myFunction() {
+			window.location.href="file:///var/www/chinmaya/Login.html"
+		}
+	</script>
+		<p><b>Already have an account ?</b></p>
+		<a href="file:///var/www/chinmaya/Login.html">Sign In</a>
+	</form>
+</body>
+</html>
